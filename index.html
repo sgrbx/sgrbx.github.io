@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>UD Services Docs</title>
+    <link rel="alternate" type="application/rss+xml" title="frittt.com" href="feed/index.html">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prettify.css">
+    <link href="themes/prism.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="prism.js"></script>
+    <div class="wrapper">
+      <nav>
+
+        <div class="pull-left">
+          <h1><a href="http://udservices.netne.net"><img src="img/icon.png" alt="Free Documentation Template Icon" /> <span>Undefined Developers</span></a></h1>
+        </div>
+
+        <div class="pull-right">
+          <a href="https://www.roblox.com" target="_blank" class="btn btn-download"><img src="img/download.png" width="25" alt="Take model" /> Take the model</a>
+        </div>
+
+      </nav>
+      <header>
+        <div class="container">
+          <h2 class="lone-header">Undefined Developers API Documentation.</h2>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <ul class="docs-nav">
+            <li><strong>Getting Started</strong></li>
+            <li><a href="#welcome" class="cc-active">Welcome</a></li>
+            <li><a href="#set-up" class="cc-active">Setting Up</a></li>
+            <li><a href="#features" class="cc-active">Features</a></li>
+            <li><a href="#credits" class="cc-active">Credits</a></li>
+            <li><a href="https://www.roblox.com" class="cc-active">Take the model</a> </li>
+            <li class="separator"></li>
+            <li><strong>Slack</strong></li>
+            <li><a href="#slack-set-up" class="cc-active">Setting Up Slack</a></li>
+            <li><a href="#animation_style" class="cc-active">Animation Styles</a></li>
+            <li><a href="#bars_text" class="cc-active">Bars Text</a></li>
+            <li><a href="#vote_counter" class="cc-active">Vote Counter</a></li>
+            <li><a href="#rating_icons" class="cc-active">Rating Icons</a></li>
+            <li><a href="#rating_titles" class="cc-active">Rating Titles</a></li>
+            <li><a href="#bar_colors" class="cc-active">Bar Colors</a></li>
+          </ul>
+          <div class="docs-content">
+            <h2> Getting Started</h2>
+            <h3 id="welcome"> Welcome</h3>
+            <p> Do you use multiple API's?</p>
+
+            <p>As ROBLOX has evolved it has developed more and more capibilities. Just to name a few: Google Sheets, Trello and Discord.<br>As each of these has been added, you have had to add more and more API's, making your game more and more complex. Our API will gave you the ability to reduce that number to one.</p>
+            <ul>
+              <li>Only one API script.</li>
+              <li>Al you could ever want.</li>
+              <li>Helping people who don't know how to script to learn.</li>
+            </ul>
+            <h3 id="set-up"> Setting up</h3>
+            How to set up our system:
+            <br>
+            1. Take the model <a href="https://www.roblox.com">here</a>
+            <br>
+            2. Insert the model 
+            <br>
+            3.Fill in the settings script 
+            <br>
+            4. Enable HTTP Services
+            <br>
+            <img src="img/Screenshot_1.png">
+            <br>
+            5. In a serverscript add the following code:
+            <br>
+            <pre><code class="language-lua">local UDAPI = require(insert ID here)</code><br><code class="language-lua">local ServiceName1,ServiceName2 =  UDAPI:GetModule(Service1,Service2)</code></pre>
+            <br>
+            6. You can now use the API by doing:
+            <br>
+            <pre><code class="language-lua">ServiceName:APIFunction(Varibles)</code></pre>
+            
+            <h3 id="features"> Features</h3>
+            <ul>
+              <li>Easy to use and simple</li>
+              <li>100% free to use</li>
+              <li>Many different modules, such as Slack, Trello and Discord</li>
+              <li>Each module has many different commands</li>
+            </ul>
+            <h3 id="credits"> Credits</h3>
+            <p> All current features  and scripts were made by Skeletonarcher12.</p>
+            <hr>
+            <h3> Slack</h3>
+            <h3 id="slack-set-up"> Setting Up Slack</h3>
+            How to set up slack:
+            <br>
+            1. Open the script called <pre
+            <h3 id="animation_style"> Animation Style</h3>
+            <ul>
+              <li>Slow</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', animation_speed:'slow'});
+    })	
+&lt;/script&gt; </pre>
+            <ul>
+              <li>Medium</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', animation_speed:'mild'});
+    })	
+&lt;/script&gt; </pre>
+            <ul>
+              <li>Fast</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', animation_speed:'fast'});
+    })	
+ &lt;/script&gt;</pre>
+            <ul>
+              <li>Super Fast</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', animation_speed:'super'});
+    })	
+&lt;/script&gt;</pre>
+            <ul>
+              <li>Ultra Fast</li>
+            </ul>
+            <pre class="prettyprint"> &lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', animation_speed:'ultra fast'});
+    })	
+&lt;/script&gt; </pre>
+            <h3 id="bars_text"> Bars Text</h3>
+            <ul>
+              <li>Show</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', votes_label:true});
+    })	
+&lt;/script&gt;</pre>
+            <ul>
+              <li>Hide</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', votes_label:false});
+    })	
+ &lt;/script&gt;</pre>
+            <h3 id="vote_counter"> Vote Counter</h3>
+            <ul>
+              <li>Show</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', show_votes_counter:true});
+    })	
+&lt;/script&gt; </pre>
+            <ul>
+              <li>Hide</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', votes_label:false});
+    })	
+&lt;/script&gt;</pre>
+            <h3 id="rating_icons"> Rating Icons</h3>
+            <ul>
+              <li>Colored</li>
+              <li>Grey</li>
+            </ul>
+            <h3 id="rating_titles"> Rating Titles</h3>
+            <ul>
+              <li>Text For First Star</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', star_1_text:'Hate It'});
+    })	
+&lt;/script&gt;</pre>
+            <ul>
+              <li>Text For Second Star</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', star_2_text:'Don't Like It'});
+    })	
+&lt;/script&gt; </pre>
+            <ul>
+              <li>Text For Third Star</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', star_1_text:'Its OK'});
+    })	
+&lt;/script&gt;</pre>
+            <ul>
+              <li>Text For Fourth Star</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', star_1_text:'Like It'});
+    })	
+&lt;/script&gt;</pre>
+            <ul>
+              <li>Text For Fifth Star</li>
+            </ul>
+            <pre class="prettyprint">&lt;script&gt;
+    $(document).ready(function (){
+    $('#opineo').opineo('results.php', {curvalue:0, view: 'mini', star_1_text:'Love It'});
+    })	
+&lt;/script&gt;</pre>
+            <h3 id="bar_colors"> Bar Colors</h3>
+            <ul>
+              <li>Colors of Red Bar</li>
+              <li>Colors of Yellow Bar</li>
+              <li>Colors of Green Bar</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="vibrant centered">
+        <div class="">
+          <h4> This documentation template is provided by <a href="http://www.frittt.com" target="_blank">Frittt Templates</a>. You can download and use this template for free. If you have used this template, please pay the developer's effort by Tweeting, sharing on Facebook, social mention or with a linkback. Enjoy! :)</h4>
+        </div>
+      </section>
+      <footer>
+        <div class="">
+          <p> &copy; Copyright Frittt Templates. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/prettify/prettify.js"></script> 
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+    <script src="js/layout.js"></script>
+  </body>
+</html>
